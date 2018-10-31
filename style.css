@@ -1,0 +1,113 @@
+body {
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #393e46;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #393e46;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  color: #4a9ff5;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.icons-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 3px 4px #e4e4e4;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  padding: 10px;
+  margin: 10px;
+  background-color: #4a9ff5;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.btn-blue:hover {
+  opacity: 1;
+}
+
+.text-blue {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+@media and screen (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media and screen (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media and screen (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
